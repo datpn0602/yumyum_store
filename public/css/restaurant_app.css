@@ -1,0 +1,116 @@
+#datatable tr.selected{
+	background-color: #10c7a4;
+    color: #fff;
+}
+#datatable tbody tr:not(.selected):hover,.table#datatable>tbody>tr.active>td{
+	background-color: #eaf9f6;
+}
+.dataTables_info .select-info{
+	margin-left: 15px;
+	font-weight: bold;
+}
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th{
+	vertical-align: middle;
+}
+/*table td.has_img{
+	display: flex;
+}
+table td.has_img img{
+	margin: auto;
+}*/
+.x_button_helper{
+	float: left;
+	margin-left: 10px;
+}
+.form-group .checkbox{
+	display: inline-block;
+}
+.form-control-feedback.left{
+	left: 0;
+	font-size: 18px;
+}
+.full_width{
+	width: 100%;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    background-color: #ffffff;
+    border-bottom: 0;
+}
+ul.bar_tabs > li{
+	margin-top: -19px;
+}
+ul.bar_tabs > li.active{
+	margin-top: -16px;
+}
+@media (max-width: 1200px){
+	.x_title h2 {
+	     width: auto; 
+	}
+}
+
+#general_info .list_info > .row i{
+	width: 10px;
+  	margin-right: 10px;
+}
+#general_info .list_info>.row{
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+#general_info .list_info>.row:last-child{
+  border-bottom: none;
+}
+.nav-tabs .dropdown-menu{
+    display: none;
+    margin: 0px -1px;
+    width: calc(100% + 1px);
+}
+ul.bar_tabs .dropdown-menu li a{
+	border: none;
+    background-color: #fff;
+}
+ul.bar_tabs .dropdown-menu li a:hover{
+    background-color: #f5f7fa;
+}
+ul.bar_tabs > li:hover .dropdown-menu{
+	display: block;
+}
+ul.bar_tabs > li.active .dropdown-menu{
+	border-left: 2px solid #ddd;
+}
+.list-action{
+	margin-left: 23px;
+}
+.list-action li{
+	display: inline-block;
+}
+blockquote .small, blockquote footer, blockquote small{
+	line-height: 2.6;
+}
+.list_food_select button i.fa-trash{
+	margin-top: 5px;
+    height: 26px;
+    font-size: 19px;
+}
+/*#order .restaurants .body .row{
+	cursor: pointer;
+}*/
+#order .restaurants .body > .row{
+	padding: 8px 0;
+}
+#order .restaurants .header{
+	border-bottom: 2px solid #ddd;
+}
+#order .restaurants .body>.row:not(:last-child){
+	border-bottom: 1px solid #ddd;
+}
+#order .restaurants .body>.row:nth-child(odd){
+	background-color: #f9f9f9;
+}
+#map{
+	height: 400px;
+}

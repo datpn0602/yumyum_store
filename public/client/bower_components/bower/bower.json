@@ -1,0 +1,17 @@
+{
+  "name": "bower",
+  "homepage": "https://github.com/NTBNgoc/bower",
+  "authors": [
+    "Ngoc <nguyenngoc.hust.97@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "bower",
+  "homepage": "https://github.com/NTBNgoc/bower",
+  "authors": [
+    "Ngoc <nguyenngoc.hust.97@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "3983a2a838",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "3983a2a83838df689495c77f7dbc729681d466d0"
+  },
+  "_source": "https://github.com/NTBNgoc/bower.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/NTBNgoc/bower.git",
+  "_direct": true
+}
